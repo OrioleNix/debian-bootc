@@ -1,4 +1,4 @@
-FROM docker.io/library/debian:unstable
+FROM docker.io/library/debian:trixie
 
 COPY files/37composefs/ /usr/lib/dracut/modules.d/37composefs/
 COPY files/ostree/prepare-root.conf /usr/lib/ostree/prepare-root.conf
